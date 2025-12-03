@@ -1,0 +1,76 @@
+
+
+<div class="form-group">
+    <label for="inputRicerca">Cerca Ordine:</label>
+    <input class="form-control" [(ngModel)]="testoDiRicerca" (input)="ricerca()" placeholder="Inserisci numero d'Ordine"/>
+</div>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>SalesOrder </th>
+      <th>SalesOrderItem</th>
+      <th>auart</th>
+      <th>erdat</th>
+      <th>netwr</th>
+      <th>waerk</th>
+      <th>bstnk</th>
+      <th>objnr</th>
+      <th>vbtyp</th>
+      <th>vkorg</th>
+      <th>vtweg</th>
+      <th>spart</th>
+      <th>matnr</th>
+      <th>kwmeng</th>
+      <th>vrkme</th>
+      <th>kdmat</th>
+      <th>zz070</th>
+      <th>lfsta</th>
+      <th>abgru</th>
+      <th>ShipToCustomer</th>
+      <th>ShipToCustomerName</th>
+      <th>QtaDelivered</th>
+      <th>StatusText</th>
+      <th>language</th>
+      <th>RequestDate</th>
+      <th>StatusSO</th>
+      <th>Advancement</th>
+      <th>Lfsta_s</th>
+    </tr>
+  </thead>
+  <tbody>
+    
+    <tr *ngFor="let oggetto of filtrati">
+      <td>{{ oggetto.SalesOrder }}</td>
+      <td>{{ oggetto.SalesOrderItem }}</td>
+      <td>{{ oggetto.auart }}</td>
+      <td>{{ oggetto.erdat }}</td>
+      <td>{{ oggetto.netwr }}</td>
+      <td>{{ oggetto.waerk }}</td>
+      <td>{{ oggetto.bstnk }}</td>
+      <td>{{ oggetto.objnr }}</td>
+      <td>{{ oggetto.vbtyp }}</td>
+      <td>{{ oggetto.vkorg }}</td>
+      <td>{{ oggetto.vtweg }}</td>
+      <td>{{ oggetto.spart }}</td>
+      <td>{{ oggetto.matnr }}</td>
+      <td>{{ oggetto.kwmeng }}</td>
+      <td>{{ oggetto.vrkme }}</td>
+      <td>{{ oggetto.kdmat }}</td>
+      <td>{{ oggetto.zz070 }}</td>
+      <td>{{ oggetto.lfsta }}</td>
+      <td>{{ oggetto.abgru }}</td>
+      <td>{{ oggetto.ShipToCustomer }}</td>
+      <td>{{ oggetto.ShipToCustomerName }}</td>
+      <td>{{ oggetto.QtaDelivered }}</td>
+      <td>{{ oggetto.StatusText }}</td>
+      <td>{{ oggetto.language }}</td>
+      <td>{{ oggetto.RequestDate }}</td>
+      <td>{{ oggetto.StatusSO }}</td>
+      <td>{{ oggetto.Advancement }}</td>
+      <td>{{ oggetto.Lfsta_s }}</td>
+      </tr>
+  </tbody>
+</table>
+
+

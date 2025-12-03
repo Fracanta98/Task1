@@ -1,0 +1,30 @@
+export class Oggetto {
+    SalesOrder?: String;
+    SalesOrderItem?: String;
+    auart?: String;
+    erdat?: String;
+    netwr?: number;
+    waerk?: String;
+    bstnk?: String;
+    objnr?: String;
+    vbtyp?: String;
+    vkorg?: String;
+    vtweg?: String;
+    spart?: String;
+    matnr?: String;
+    kwmeng?: number;
+    vrkme?: String;
+    kdmat?: String;
+    zz070?: String;
+    lfsta?: String;
+    abgru?: String;
+    ShipToCustomer?: String;
+    ShipToCustomerName?: String;
+    QtaDelivered?: number;
+    StatusText?: String;
+    language?: String;
+    RequestDate?: String | null ;
+    StatusSO?: String;
+    Advancement?: number;
+    Lfsta_s?: String;
+}
